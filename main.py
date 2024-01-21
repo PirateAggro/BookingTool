@@ -1,9 +1,7 @@
 import streamlit as st
-import sys
-sys.path.insert(1, "C:/Users/pirat/python/Lib/site-packages/streamlit_option_menu")
 from streamlit_option_menu import option_menu
 
-import app, reserva_fb, retorn, historial, dadesmestres, materials, reserva_fb_Boot
+import reserva_fb, retorn, historial, dadesmestres, materials, reserva_fb_Boot
 
 st.set_page_config(
     page_title="Gestió Reserves",
