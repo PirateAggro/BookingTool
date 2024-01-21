@@ -1,4 +1,6 @@
 import streamlit as st
+import sys
+sys.path.insert(1, "C:\Users\pirat\python\Lib\site-packages\streamlit_option_menu")
 from streamlit_option_menu import option_menu
 
 import app, reserva_fb, retorn, historial, dadesmestres, materials, reserva_fb_Boot
@@ -22,7 +24,9 @@ class Multiapp:
                 menu_title='Menu',
                 options=["Reserva", "Retorn", "Historial", "Dades Mestres", "Materials","Boot"],
                 menu_icon="cast",
-                default_index=0
+                default_index=0,
+                
+                
             )
         ##my_expander = st.expander(label='Expand me')
         ##my_expander.write('Hello there!')
