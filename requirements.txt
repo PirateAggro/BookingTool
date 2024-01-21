@@ -9,6 +9,5 @@ gspread
 oauth2client
 google.cloud
 datetime
-itertools
 st_aggrid
 firebase_admin
