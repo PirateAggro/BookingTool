@@ -10,3 +10,4 @@ oauth2client
 google.cloud
 datetime
 firebase_admin
+streamlit-aggrid
