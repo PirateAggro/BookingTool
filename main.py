@@ -1,5 +1,11 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
+import pandas as pd
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
+from datetime import datetime, timezone, timedelta, date
+from google.cloud import firestore
+from itertools import islice
 
 import reserva_fb, retorn, historial, dadesmestres, materials, reserva_fb_Boot
 
